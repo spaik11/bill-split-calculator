@@ -6,7 +6,11 @@ console.log(`The Bill - $${bill.toFixed(2)}`);
 
 function theTip(bill, tipPercent) {
     result = tipPercent * bill / 100;
+    if (result > 0) {
     console.log(`The Tip - $${result.toFixed(2)}`);
+} else {
+    console.log(`The Tip - :(`)
+}
 }
 
 theTip(bill, tipPercent);
