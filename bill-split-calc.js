@@ -2,25 +2,22 @@ const bill = Number(process.argv[2])
 const people = Number(process.argv[3])
 const tipPercent = Number(process.argv[4])
 
-// let bill = 100;
-// let people = 2;
-// let tipPercent = 40;
+console.log(`$${bill.toFixed(2)} - Bill`);
 
-// if (bill !== Number) {
-//     console.log('Please input a number for the bill!');
-// } else if (people !== Number) {
-//     console.log('Please input a number for people!')
-// } else {
-//     console.log('Please input a number for the tip!')
-// }
+function theTip(bill, tipPercent) {
+    result = tipPercent * bill / 100;
+    console.log(`$${result.toFixed(2)} - The Tip`);
+}
+
+theTip(bill, tipPercent);
 
 if (tipPercent > 0) {
     const withTip = bill + tipPercent * bill / 100;
     const total = withTip / people;
-    console.log(total + ' Thanks for the tip!');
+    console.log(`$${total.toFixed(2)} each. Thanks for the tip!`);
 } else {
     const total = bill / people;
-    console.log(total);
+    console.log(`$${total.toFixed(2)} each. See you next time!`);
 }
 
 
