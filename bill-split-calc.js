@@ -1,13 +1,12 @@
 const bill = Number(process.argv[2])
 const people = Number(process.argv[3])
-const tip = Number(process.argv[4])
+const tip = Number(process.argv[4].slice(-2))
 
-// const result = process.argv[2].startsWith('tip')
-// result
-// const tip = process.argv[2].slice(-2)
-// tip
+// const tip = process.argv[2].startsWith('tip')
+// const tip = Number(process.argv[4].slice(-2))
 
-console.log(`The Bill - $${bill.toFixed(2)}`);
+
+console.log(`The Bill - $${bill}`);
 
 function theTip(bill, tip) {
     result = tip * bill / 100;
@@ -28,5 +27,4 @@ if (tip > 0) {
     const total = bill / people;
     console.log(`$${total.toFixed(2)} per person. See you next time!`);
 }
-
 
