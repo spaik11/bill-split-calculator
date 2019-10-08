@@ -1,6 +1,6 @@
 const bill = Number(process.argv[2])
 const people = Number(process.argv[3])
-const tip = Number(process.argv[4].slice(-2))
+const tip = Number(process.argv[4])
 
 // const tip = process.argv[2].startsWith('tip')
 // const tip = Number(process.argv[4].slice(-2))
