@@ -10,8 +10,8 @@ Open the app in terminal using node.js and run the following code.
 
 ![Image of Test](img-folder/Screen&#32;Shot&#32;2019-10-08&#32;at&#32;11.40.47&#32;AM.png)
 img[src*="#thumbnail"] {
-   width:100px;
-   height:100px;
+   width:200px;
+   height:200px;
 }
 
 
