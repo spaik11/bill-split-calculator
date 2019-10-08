@@ -6,7 +6,7 @@ Don't you hate it when you're with a big group and you have to calculate how muc
 ### Installation
 
 ### Usage
-![Code Test](bill-split-test.png)
+![Code Test][https://github.com/spaik11/bill-split-calculator/blob/master/bill-split-test.png]
 
 ### Contributing
 
