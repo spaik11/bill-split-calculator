@@ -9,6 +9,10 @@ Open the app in terminal using node.js and run the following code.
 `node bill-split-calculator.js [The Bill] [# of People] [Tip Percent]`
 
 ![Image of Test](img-folder/Screen&#32;Shot&#32;2019-10-07&#32;at&#32;9.59.15&#32;PM.png)
+img[src*="#thumbnail"] {
+   width:200px;
+   height:200px;
+}
 
 
 ### Contributing
